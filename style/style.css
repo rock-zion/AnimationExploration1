@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+  height: 50px;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+#logo{
+  color: #FFFFFF;
+}
+
+.nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-right: 72px;
+}
+
+.nav a:last-child{
+  padding-right: 0;
+}
+
+.section2{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.hero-text-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  position: absolute;
+}
+
+.visual-exploration-paragraph, .visual-exploration{
+  overflow: hidden;
+}
+
+.visual-exploration{
+  margin-bottom: 17px;
+}
+
+.visual-exploration span{
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 70px;
+  font-weight: normal;
+  padding-right: 42px;
+}
+
+.visual-exploration span:last-child{
+  padding-right: 0;
+}
+
+.visual-exploration-paragraph p{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+.stagger-down-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 0000;
+  overflow: hidden;
+}
+
+.stagger-down-container div{
+  width: 100%;
+  background-color: #000000;
+}
+
+.creative{
+  width: 100vw;
+  height: auto;
+}
+
+.hero-section{
+  height: 100vh;
+  width: 100vw;
+  background: url('../images/bg.jpg') no-repeat;
+  background-size: 100% 100%;
+  z-index: -180;
+}
+
+#mask-container{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+/* SECTION 2 */
+.section2{
+  width: 100vw;
+  margin-top: 50px;
+  display: flex;
+  background-color: #FFFFFF;
+  overflow-x: scroll;
+}
+
+.section2 img{
+  width: 315px;
+  height: 420px;
+}
+
+.mask-texts{
+  width: 100vh;
+  position: absolute;
+  bottom: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask-texts h3{
+  font-size: 70px;
+  font-weight: normal;
+  width: 840px;
+  text-align: center;
+}
+
+.mask-texts p{
+  color: #666666;
+  font-size: 24px;
+  width: 540px;
+  text-align: center;
+  line-height: 39px;
+}
+
+.mask-texts button{
+  width: 176px;
+  height: 48px;
+  color: #FFFFFF;
+  background-color: #3340FF;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+.section3{
+  height: 900px;
+  background-color: aqua;
+}
